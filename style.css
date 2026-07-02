@@ -2,9 +2,12 @@
   font-family: "IBM Plex Sans Condensed";
   src: url("fonts/ibmplexsanscondensed/IBMPlexSansCondensed-Regular.ttf") format("truetype");
 }
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("fonts/ibmplexserif/IBMPlexSerif-Regular.ttf") format("truetype");
+}
 body{
   margin: 0;
-  font-family: sans-serif;
   font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 header {
@@ -70,4 +73,7 @@ li {
 img {
   margin: 15px;
   float: right;
+}
+.blogp {
+  font-family: "IBM Plex Serif", "IBM Plex Sans Condensed", serif
 }
